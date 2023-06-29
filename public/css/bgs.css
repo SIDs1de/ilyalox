@@ -1,0 +1,23 @@
+/* .header {
+  background-image: url("../images/light-1.png");
+} */
+
+.dancing::before {
+	background-image: url('../images/dancing/bg-word.svg');
+}
+
+.dancing::after {
+	background-image: url('../images/dancing/bg-hand.png');
+}
+
+.dancing__main-block::before {
+	background-image: url('../images/dancing/main-block-bg.svg');
+}
+
+.footer__input-wrapper::before {
+	background-image: url('../images/footer/input-bg.svg');
+}
+
+.footer__btn-wrapper::before {
+	background-image: url('../images/footer/btn-bg.svg');
+}

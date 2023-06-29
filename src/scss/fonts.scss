@@ -1,0 +1,10 @@
+// Подключение шрифтов
+// Пример: @include font-face("Cabinet Grotesk", "/fonts/CabinetGrotesk/CabinetGrotesk-Bold", 700);
+// Путь писать без расширения файла, то есть все файлы должны называться одинаково,
+// Но в конце будут разные расширения: example.woff, example.woff2, example.eot
+// Ещё один пример: @include font-face("saira", "/fonts/saira/saira", 400); то есть в папке saira
+// лежат файлы saira.woff2, saira.eot и так далее, хватит хотя бы одного расширения и проект будет работать
+
+@include font-face("Codec Pro", "../fonts/CodecPro-UltraItalic", 800, italic);
+@include font-face("Codec Pro", "../fonts/CodecPro-Ultra", 800);
+@include font-face("Codec Pro", "../fonts/CodecPro-Bold", 500);

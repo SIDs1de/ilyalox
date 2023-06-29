@@ -1,0 +1,46 @@
+{
+	"name": "yarn",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"homepage": "https://sids1de.github.io",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "gh-pages -d public"
+	},
+	"author": "Igor Denisenkov igorekdenisenkov@yandex.ru",
+	"devDependencies": {
+		"@babel/core": "^7.18.13",
+		"@babel/preset-env": "^7.18.10",
+		"@notionhq/client": "^2.2.2",
+		"browser-sync": "^2.27.10",
+		"del": "^6.1.1",
+		"gh-pages": "^4.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-file-include": "^2.3.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-newer": "^1.4.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-uglify-es": "^3.0.0",
+		"gulp-webp": "^4.0.1",
+		"mailgun-js": "^0.22.0",
+		"node-fetch": "^2.6.7",
+		"sass": "^1.53.0"
+	},
+	"dependencies": {
+		"@sendgrid/mail": "^7.7.0",
+		"cheerio": "^1.0.0-rc.12",
+		"form-data": "^4.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-ttf2woff2": "^4.0.1",
+		"handlebars": "^4.7.7",
+		"mailgun.js": "^8.0.6",
+		"netlify-cli": "^15.6.0",
+		"normalize.css": "^8.0.1",
+		"postmark": "^3.0.14"
+	}
+}

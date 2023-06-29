@@ -1,0 +1,14 @@
+// Миксин для упрощённого подключения новых шрифтов к проекту
+// $font-family - как будет называться шрифт, чтобы использовать его в проекте
+// Путь писать без расширения файла, то есть все файлы должны называться одинаково,
+// Но в конце будут разные расширения: example.woff, example.woff2, example.eot
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+
+    src: local("#{$font-family}"), url("#{$file-path}.woff2") format("woff2"),
+      url("#{$file-path}.ttf") format("truetype");
+  }
+}
